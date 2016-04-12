@@ -1,0 +1,39 @@
+body {
+  background-color: #a9a9a9;
+}
+
+header, nav, h2 {
+  color: #e2eacd;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: lightgrey;
+}
+
+header, nav {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 14pt;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 11pt;
+}
+
+div {
+  font-size: 9pt;
+}
