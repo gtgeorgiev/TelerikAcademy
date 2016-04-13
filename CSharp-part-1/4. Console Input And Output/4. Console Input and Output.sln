@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Numbers Comparer", "05.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Quadratic Equation", "06. Quadratic Equation\06. Quadratic Equation.csproj", "{D16FC60F-A84E-463A-8F35-22800CE1140B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Sum of five numbers", "07. Sum of five numbers\07. Sum of five numbers.csproj", "{AA5C4E7E-DA8D-4DFB-9034-CC25A7AA39D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Numbers from 1 to N", "08. Numbers from 1 to N\08. Numbers from 1 to N.csproj", "{C5D5ECC9-BA2C-489D-8A1D-CC870645C8EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Sum of N Numbers", "09. Sum of N Numbers\09. Sum of N Numbers.csproj", "{31890BB6-4BDF-48CD-9A63-25FD90C3451A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,18 @@ Global
 		{D16FC60F-A84E-463A-8F35-22800CE1140B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D16FC60F-A84E-463A-8F35-22800CE1140B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D16FC60F-A84E-463A-8F35-22800CE1140B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5C4E7E-DA8D-4DFB-9034-CC25A7AA39D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5C4E7E-DA8D-4DFB-9034-CC25A7AA39D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5C4E7E-DA8D-4DFB-9034-CC25A7AA39D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5C4E7E-DA8D-4DFB-9034-CC25A7AA39D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D5ECC9-BA2C-489D-8A1D-CC870645C8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D5ECC9-BA2C-489D-8A1D-CC870645C8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D5ECC9-BA2C-489D-8A1D-CC870645C8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D5ECC9-BA2C-489D-8A1D-CC870645C8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31890BB6-4BDF-48CD-9A63-25FD90C3451A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31890BB6-4BDF-48CD-9A63-25FD90C3451A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31890BB6-4BDF-48CD-9A63-25FD90C3451A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31890BB6-4BDF-48CD-9A63-25FD90C3451A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
