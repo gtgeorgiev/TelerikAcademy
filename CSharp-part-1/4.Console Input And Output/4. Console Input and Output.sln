@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum of 3 numbers", "01. Sum of 3 numbers\01. Sum of 3 numbers.csproj", "{003B36A9-0870-4263-9E2A-C3819D91A6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Company Info", "02. Company Info\02. Company Info.csproj", "{1B10AF7C-0CB1-4194-A289-AB411B3F2A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003B36A9-0870-4263-9E2A-C3819D91A6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003B36A9-0870-4263-9E2A-C3819D91A6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003B36A9-0870-4263-9E2A-C3819D91A6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003B36A9-0870-4263-9E2A-C3819D91A6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B10AF7C-0CB1-4194-A289-AB411B3F2A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B10AF7C-0CB1-4194-A289-AB411B3F2A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B10AF7C-0CB1-4194-A289-AB411B3F2A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B10AF7C-0CB1-4194-A289-AB411B3F2A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
