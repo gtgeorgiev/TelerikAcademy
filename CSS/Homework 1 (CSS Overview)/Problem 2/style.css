@@ -1,0 +1,35 @@
+body {
+  margin: 0 0 0 0;
+}
+
+td {
+  border: 1px solid gray;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+table {
+  color: #331100;
+  border-spacing: 0;
+  width: 458px;
+  height: 133px;
+  font-size: 9pt;
+}
+
+img {
+  width: 20px;
+  height: 15px;
+  margin-right: 2px;
+}
+
+tr:first-child {
+  background: -webkit-linear-gradient(top,  #4cd615 1%,#48ab02 100%);
+
+  color: white;
+
+  padding-left: 5px;
+}
+
+tr:nth-child(odd) {
+  background-color: #E8EDED;
+}

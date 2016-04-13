@@ -1,0 +1,87 @@
+body {
+  margin: 0 0 0 0;
+}
+
+
+
+.wrapper {
+  background-color: #595959;
+  width: 301px;
+  height: 195px;
+  padding-top: 10px;
+  padding-left: 3px;
+  color: lightgray;
+  font-family: sans-serif;
+
+}
+
+.left_side {
+  display: inline-block;
+  float:left;
+  color: white;
+  font-style: italic;
+  width: 100px;
+    font-size: 8pt;
+}
+
+.name {
+  margin-top: 13px;
+}
+
+.email {
+  margin-top: 30px;
+}
+
+.response_time {
+  margin-top: 14px;
+}
+
+.last_action {
+  margin-top: 14px;
+}
+
+.status {
+  margin-top: 40px;
+}
+
+.right_side {
+  display: inline-block;
+  float:left;
+  width: 150px;
+  font-size: 8pt;
+
+}
+
+.parker_seidel {
+  color: #F1FFB8;
+  margin-top: 13px;
+}
+
+.no_active_support {
+  color: red;
+  margin-top: 2px;
+}
+
+.seidel_email {
+  color: #F1FFB8;
+  margin-top: 14px;
+}
+
+.time {
+  margin-top: 15px;
+}
+
+.action {
+  margin-top: 15px;
+}
+
+.action_2 {
+  margin-top: 15px;
+  color: #F1FFB8;
+}
+
+.not_answered {
+  margin-top: 14px;
+  color: orange;
+  font-size: 9pt;
+}
