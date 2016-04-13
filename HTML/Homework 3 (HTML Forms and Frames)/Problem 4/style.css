@@ -1,0 +1,62 @@
+body {
+  margin: 0 0 0 0;
+  font-family: "Times New Roman";
+}
+table {
+  width: 880px;
+  height: 392px;
+  border-color: lightblue;
+  border-radius: 8px;
+  font-family: Arial;
+  font-size: 9pt;
+}
+td {
+  padding-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 10pt;
+  color: black;
+}
+
+input {
+  width: 20px;
+}
+
+select {
+  border-radius: 0px;
+}
+
+.background_of_furst_table_row {
+  background-color: #e7e9eb;
+}
+
+.background_of_second_table_row {
+background: linear-gradient(to bottom,  #eff0f1 0%,#dbdde0 100%);
+}
+
+.background_of_third_table_row {
+  background-color: #dfe3e8;
+}
+
+.background_of_last_table_row {
+background: linear-gradient(to bottom,  #dbdfe4 0%,#bec2c7 100%);
+}
+
+
+#input-1 {
+  width: 22px;
+}
+
+#input-2 {
+  width: 130px;
+}
+
+#input-3_and_5 {
+  width: 70px;
+}
+
+#input-4 {
+  width: 80px;
+}
