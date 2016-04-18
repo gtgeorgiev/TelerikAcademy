@@ -1,0 +1,60 @@
+body {
+  margin: 0 0 0 0;
+}
+
+table {
+  width: 400px;
+  border-spacing: 0;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+
+.firstNameLastNameAndEmail {
+  width: 200px;
+}
+
+.state {
+  width: 30px;
+}
+
+.postCode {
+  width: 50px;
+}
+
+.firstDigitsOfTelephoneNumber {
+  width: 40px;
+}
+
+.lastDigitsOfTelephoneNumber {
+  width: 80px;
+}
+
+.monthAndDay {
+  width: 20px;
+}
+
+.year {
+  width: 40px;
+}
+
+textarea {
+  width: 180px;
+  height: 80px;
+}
+
+td, th, table {
+  border: 1px solid grey;
+}
+
+th {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.lastTableRow {
+  background-color: #d1ede1;
+}
+
+.lastTableRow form{
+  margin-left: 120px;
+}
