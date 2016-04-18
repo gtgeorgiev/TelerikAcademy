@@ -3,6 +3,7 @@ body {
   font-family: "Times New Roman";
 }
 table {
+  border-spacing: 0;
   width: 880px;
   height: 392px;
   border-color: lightblue;
