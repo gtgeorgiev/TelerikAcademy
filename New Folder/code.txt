@@ -1,1 +1,2 @@
 Hi, code!
+Hi, a new line of code!
