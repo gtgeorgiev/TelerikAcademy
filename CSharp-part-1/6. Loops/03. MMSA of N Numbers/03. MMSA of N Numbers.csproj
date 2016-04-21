@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>96660509-8cb9-4be1-9fda-89326bfb59e8</ProjectGuid>
+    <ProjectGuid>{05A2B71B-19C3-4EF0-86A4-4B3DFD6A2DE3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_03.MMSA_of_N_Numbers</RootNamespace>
