@@ -14,8 +14,8 @@ namespace _03.MMSA_of_N_Numbers
         {
             int N = int.Parse(Console.ReadLine());
 
-            double max = Double.MinValue;
-            double min = Double.MaxValue;
+            double maxValue = Double.MinValue;
+            double minValue = Double.MaxValue;
             double number = 0;
             double sum = 0;
 
@@ -25,19 +25,20 @@ namespace _03.MMSA_of_N_Numbers
 
                 sum += number; //storage of sum
 
-                if (number < min)
+                if (number < minValue)
                 {
-                    min = number;
+                    minValue = number;
                 }
 
-                if (number > max)
+                if (number > maxValue)
                 {
-                    max = number;
+                    maxValue = number;
                 }
             }
-            Console.WriteLine(min);
-            Console.WriteLine(max);
-            Console.WriteLine(sum);
+            Console.WriteLine("min={0:F2}", minValue);
+            Console.WriteLine("max={0:F2}", maxValue);
+            Console.WriteLine("sum={0:F2}", sum);
+            Console.WriteLine("avg={0:F2}", sum / N);
         }
     }
 }
