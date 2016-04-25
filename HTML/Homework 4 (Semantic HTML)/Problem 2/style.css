@@ -1,0 +1,40 @@
+body {
+  margin-left: 15px;
+  margin-top: 11px;
+}
+
+div.wrapper {
+  border: 3px solid black;
+  width: 1057px;
+  height: 557px;
+  padding-left: 50px;
+  font-size: 16pt;
+  font-family: sans-serif;
+}
+
+nav {
+  font-size: 20pt;
+}
+
+table{
+  border-spacing: 0;
+  margin-top: 50px;
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  font-size: 19pt;
+}
+
+td, th, table {
+  border: 1px solid black;
+}
+
+h2 {
+  margin-left: 150px;
+}
+
+h1, h2 {
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: normal;
+}
