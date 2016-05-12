@@ -23,13 +23,18 @@ header, nav {
   text-align: center;
 }
 
+section{
+  width: 65%;
+  margin: auto;
+}
+
 ul {
   list-style-type: none;
   font-size: 14pt;
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 200px;
   text-align: center;
   font-size: 11pt;
 }
