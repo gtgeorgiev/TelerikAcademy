@@ -1,3 +1,13 @@
-img{
-    
+body{
+    font-size: 15px;
+}
+
+p{
+    font-family: Consolas, Edwardian Script ITC;
+    color: #0094ff;
+}
+
+p::first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
 }
