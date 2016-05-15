@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <img src="calculator.jpg" alt="calculator-image" />
+        <span>Calculator</span>
+        <div id="upper-buttons">
+            <input type="button" class="width-28" id="minimize-button"/>
+            <input type="button" class="width-28" id="maximize-button"/>
+            <input type="button" id="quite-button"/>
+        </div>
+        <div id="main">
+            <div id="context-menu">
+                <a href="#"><span>View</span></a> 
+                <a href="#"><span>Edit</span></a>
+                <a href="#"><span>Help</span></a>
+            </div>
+            <div id="screen">
+                <span>8854455</span>
+            </div>
+            <div id="binary-values">
+                <span>0000 &nbsp; 0000 &nbsp; 0000 &nbsp; 0000 &nbsp; 0000 &nbsp; 0000 &nbsp; 0000 &nbsp; 0000</span>
+                <span class="color-grey">63 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 47 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 32</span>
+                <span>0000 &nbsp; 0000 &nbsp; 1000 &nbsp; 0111 &nbsp; 0001 &nbsp; 1011 &nbsp; 0000 &nbsp; 0111</span>
+                <span class="color-grey">31 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp 0</span>
+            </div>
+            <table>
+                <tr>
+                    <td colspan="2" rowspan="3">
+                        <form>
+                            <input type="radio" id="Hex" name="numeral">
+                            <label for="Hex">Hex</label> <br>
+                            
+                            <input type="radio" id="Dec" name="numeral" checked>
+                            <label for="Dec">Dec</label><br>
+                            
+                            <input type="radio" id="Oct"  name="numeral">
+                            <label for="Oct">Oct</label> <br>
+                             
+                            <input type="radio" id="Bin"  name="numeral">
+                            <label for="Bin">Bin</label> <br>
+                        </form> 
+                    </td>
+                    <td><button class="letters"></button></td>
+                    <td><button class="bitwise">Mod</button></td>
+                    <td><button class="letters">A</button></td>
+                    <td><button class="letters">MC</button></td>
+                    <td><button class="letters">MR</button></td>
+                    <td><button class="letters">MS</button></td>
+                    <td><button class="letters">M+</button></td>
+                    <td><button class="letters">M-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="bitwise">(</button></td>
+                    <td><button class="bitwise">)</button></td>
+                    <td><button class="letters">B</button></td>
+                    <td><button class="bitwise">--</button></td>
+                    <td><button class="bitwise">CE</button></td>
+                    <td><button class="bitwise">C</button></td>
+                    <td><button class="bitwise">+-</button></td>
+                    <td><button class="letters">v</button></td>
+                </tr>
+                <tr>
+                    <td><button class="bitwise">RoL</button></td>
+                    <td><button class="bitwise">PoR</button></td>
+                    <td><button class="letters">C</button></td>
+                    <td><button class="numbers">7</button></td>
+                    <td><button class="numbers">8</button></td>
+                    <td><button class="numbers">9</button></td>
+                    <td><button class="bitwise">/</button></td>
+                    <td><button class="letters">%</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="3">
+                        <form id="inputs">
+                            
+                            <input type="radio" id="Qword" name="word" checked>
+                            <label for="Qword">Qword</label>
+                            
+                            <input type="radio" id="Dword" name="word">
+                            <label for="Dword">Dword</label>
+                            
+                            <input type="radio" id="Word"  name="word">
+                            <label for="Word">Word</label>
+                             
+                            <input type="radio" id="Byte"  name="word">
+                            <label for="Byte">Byte</label>
+                        </form>
+                    </td>
+                    <td><button class="bitwise">Or</button></td>
+                    <td><button class="bitwise">Xor</button></td>
+                    <td><button class="letters">D</button></td>
+                    <td><button class="numbers">4</button></td>
+                    <td><button class="numbers">5</button></td>
+                    <td><button class="numbers">6</button></td>
+                    <td><button class="bitwise">*</button></td>
+                    <td><button class="letters">1/x</button></td>
+                </tr>
+                <tr>
+                    <td><button class="bitwise">Lsh</button></td>
+                    <td><button class="bitwise">Rsh</button></td>
+                    <td><button class="letters">E</button></td>
+                    <td><button class="numbers">1</button></td>
+                    <td><button class="numbers">2</button></td>
+                    <td><button class="numbers">3</button></td>
+                    <td><button class="bitwise">-</button></td>
+                    <td rowspan="2"><button id="equal" class="bitwise">=</button></td>
+                </tr>
+                <tr>
+                    <td><button class="bitwise">Not</button></td>
+                    <td><button class="bitwise">And</button></td>
+                    <td><button class="letters">F</button></td>
+                    <td colspan="2"><button id="zero" class="numbers">0</button></td>
+                    <td><button class="bitwise">.</button></td>
+                    <td><button class="bitwise">+</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

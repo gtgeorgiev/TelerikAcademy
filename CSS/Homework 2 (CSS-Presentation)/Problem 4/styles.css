@@ -1,0 +1,198 @@
+ body{
+     font-size: 15px;
+     font-family: sans-serif;
+ }
+ 
+ body div#content{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    background: #DDE7F3;
+    border: 1px solid lightgrey;
+ }
+
+div#main{
+    border: 1px solid brown;
+    width: 480px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #E1E9F2;
+}
+
+div#content>img{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 3px;
+    vertical-align: bottom;
+}
+
+span {
+    display: inline-block;
+    font-size: 1.01em;
+}
+
+div#upper-buttons{
+    display: inline-block;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+    width: 119px;
+    height: 17px;
+    margin-left: 277px;
+    vertical-align: top;
+}
+
+input#minimize-button {
+    background-image: url(minimize-button.jpg);
+    border-radius: 0px 0px 0px 5px;
+}
+
+input#maximize-button {
+    background-image: url(maximize-button.jpg);
+}
+
+input#quite-button {
+    background-image: url(quite-button.jpg);
+    width: 55px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+div#upper-buttons input.width-28{
+    width: 28px;
+}
+
+input[type=button]{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;  
+    height: 18px;
+}
+
+body div div div#context-menu{
+    height: 22px;
+    border-bottom: 1px solid black;
+    background: #DAE0F1;
+}
+
+div#context-menu span::first-letter{
+    text-decoration: underline;
+}
+
+div#context-menu span{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+div#context-menu a{
+    color: black;
+}
+
+div#main div#screen{
+   width: 455px;
+   height: 65px;
+   border: 1px solid grey;
+   border-radius: 2px;
+   margin-top: 10px;
+   margin-left: 13px;
+   background: -moz-linear-gradient(top,  #e6effb 0%, #ffffff 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #e6effb 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #e6effb 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6effb', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+div#screen span{
+    display: inline-block;
+    font-size: 1.9em;
+    margin: 7% 0 0 73%;
+}
+
+div#main div#binary-values{
+    width: 455px;
+    height:77px;
+    border: 1px solid grey;
+    margin-left: 13px;
+    margin-top: 5px;
+    border-radius: 2px;
+    background: #D9E4F1;
+}
+
+div#binary-values span{
+    display: inline-block;
+    margin-left: 6px;
+    font-family: Consolas;
+    font-size: 1em
+}
+
+div#binary-values span.color-grey{
+    color: grey;
+}
+
+table{
+    margin-left: 10px;
+    margin-top: 5px;
+    border-spacing: 4px;
+    text-align: center;
+    color: darkblue;
+    width: 463px;
+}
+
+td{
+    background: #DDE7F1;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 1.1em;  
+}
+
+form{
+    font-size: 0.9em;
+    color: darkblue;
+    text-align: left;
+}
+
+button{
+    color: darkblue;
+    font-family: Sans-serif;
+    height: 32px;
+    width: 38px;
+    text-align: center;
+    border: 0;
+}
+
+button#equal{
+    height: 72px;
+}
+
+button#zero{
+    width: 84px;
+}
+
+button.numbers{
+background: -moz-linear-gradient(top,  #ffffff 0%, #edf3f9 47%, #edf3f9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#edf3f9 47%,#edf3f9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#edf3f9 47%,#edf3f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edf3f9',GradientType=0 ); /* IE6-9 */
+}
+
+button.letters{
+    background: #D9E4F1;
+}
+
+
+button.bitwise{
+    background: -moz-linear-gradient(top,  #edf3f9 0%, #edf3f9 47%, #d2d5f7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #edf3f9 0%,#edf3f9 47%,#d2d5f7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #edf3f9 0%,#edf3f9 47%,#d2d5f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf3f9', endColorstr='#d2d5f7',GradientType=0 ); /* IE6-9 */
+
+}
+
+button:hover {
+  background: yellow;
+  opacity: 0.50;
+  cursor: pointer;
+}
