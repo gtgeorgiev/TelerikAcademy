@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+div#wrapper{
+    border: 0px solid black;
+    border-radius: 5px;
+    width: 420px;
+    height: 540px;
+    background: #EEEEEE;
+}
+
+div span{
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+
+div.categories{
+    border: 1px solid darkgrey;
+    width: 395px;
+    height: 120px;
+    margin: 40px 0 0 15px;
+    background: white;
+}
+
+div>img{
+    display: inline-block;
+    width: 35%;
+    height: 75%;
+    margin: 15px 0 0 15px;
+    border: 1px solid darkgrey;
+    float: left;
+}
+
+p {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    margin: 15px 0 0 15px; 
+    font-size: 0.99em;
+}
+
+form {
+    display: inline-block;
+    margin: 5px 0 0 90px;
+}
+
+form input{
+    background: url(images/red-button.png) center;
+    background-color: transparent;
+    height: 25px; 
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+}
+
+input.first-button{
+    width: 80px;
+}
+
+input.second-button{
+    width: 55px;
+}
