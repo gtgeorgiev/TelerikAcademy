@@ -1,0 +1,194 @@
+h4, h1, h2, h5, strong{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin-top: 2px;
+    margin-left: 1px;
+    height: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+div#wrapper{
+    width: 785px;
+    height: 585px;
+    border: 1px solid black;
+    background: #F1F1F1;
+}
+
+nav{
+    display: inline-block;
+    height: 98%;
+    width: 18%;
+}
+
+main{
+    vertical-align: top;
+    display: inline-block;
+    height: 96%;
+    width: 62%;
+    border: 1px solid black;
+    margin: 4px 0 0 0;
+    background: white;
+}
+
+aside{
+    margin: 3px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+    height: 96%;
+    width: 18%;
+}
+
+nav img{
+    margin: 12px 0 0 0px;
+}
+
+h5{
+    margin: 17px 0 0px 2px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+strong{
+    display: block;
+    font-size: 0.8em;
+    color: #99201E;
+    margin: 10px 0 0 2px;
+}
+
+a{
+    margin-left: 1px;
+    display: block;
+    font-size: 0.78em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    display: inline-block;
+    margin: 16px 0 0 5px;
+    font-size: 1.3em;
+}
+
+main form input[type=submit]{
+    background: white;
+    border: 1px solid black;
+    font-size: 0.85em;
+    cursor: pointer;
+}
+
+main form input[type=submit]:hover{
+    background: lightgrey;
+    opacity: 0.5;
+}
+
+main form{
+    margin: 10px 0 0 5px;
+}
+
+hr{
+    width: 97%;
+}
+
+div.greyline{
+    background: #808080;
+    color: white;
+    border: 1px solid grey;
+    width: 97%;
+    height: 2.5%;
+    font-size: 0.9em;
+    margin: 0 0 0 5px;
+}
+
+main img{ 
+    margin: 5px 15px 10px 5px;
+    float: left;
+    
+}
+
+main p{ 
+    diplay: inline-block;
+    margin: 10px 0 15px 5px;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 98%
+}
+
+main a{
+    display: inline-block;
+    margin: 7px 0 15px 5px;
+    text-decoration: underline;
+    color: #AA4645;
+}
+
+a#last-ancre-tag-in-main{
+    margin-bottom: 0px;
+}
+
+main strong{
+    font-size: 1em;
+}
+
+aside div{
+    border: 1px solid grey;
+    width: 100%;
+    background: white;
+    margin-top: 1px;
+    padding-bottom: 6px;
+} 
+
+div#first-aside-div{
+    height: 14%;
+}
+
+aside div.greyline{
+    margin: 0 0 5px 0;
+    width: 99%;
+    height: 18%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+aside input[type=text]{
+    width: 62%;
+    margin: 5px 0 4px 10px;
+}
+
+aside input[type=submit]{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 15%;
+    background: lightgrey;
+    cursor: pointer;
+}
+
+aside a{
+    display: inline-block;
+    text-decoration: underline;
+    color: #AA4645;
+    font-size: 0.9em;
+}
+
+aside strong{
+    display:block;
+    margin: 0;
+    text-align: center;
+}
+
+div#second-aside-div img{
+    margin: 2px 0 0 20px;
+}
+
+div#second-aside-div img:hover{
+    cursor: pointer;
+}
+
+
