@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Say Hello", "01. Say Hello\01. Say Hello.csproj", "{46AB0DAA-23E1-4A16-857A-B5DFA77E19A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Get largest number", "02. Get largest number\02. Get largest number.csproj", "{814F93A7-8CC1-434F-A984-534E83E855FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. English digit", "ConsoleApplication1\03. English digit.csproj", "{42A49D92-7878-4801-854F-1485542B1C8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46AB0DAA-23E1-4A16-857A-B5DFA77E19A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AB0DAA-23E1-4A16-857A-B5DFA77E19A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AB0DAA-23E1-4A16-857A-B5DFA77E19A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AB0DAA-23E1-4A16-857A-B5DFA77E19A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814F93A7-8CC1-434F-A984-534E83E855FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814F93A7-8CC1-434F-A984-534E83E855FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814F93A7-8CC1-434F-A984-534E83E855FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814F93A7-8CC1-434F-A984-534E83E855FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A49D92-7878-4801-854F-1485542B1C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A49D92-7878-4801-854F-1485542B1C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A49D92-7878-4801-854F-1485542B1C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A49D92-7878-4801-854F-1485542B1C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
