@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+div#wrapper{
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 610px;
+    height: 320px;
+    background: #1E3741;
+}
+
+header{
+    margin-bottom: 15px;
+}
+
+main div#articles{
+    display: inline-block;
+    width: 40%;
+}
+
+div#header{
+    border: 1px solid grey;
+    background: #00968C;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+
+div.posts{
+    border-bottom: 1px solid darkgrey;
+    padding: 5px 5px 5px 5px; 
+}
+
+img{
+    vertical-align: top;
+}
+
+main a{
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 0.88em;
+}
+
+main a:hover{
+    color: grey;    
+}
+
+nav{
+    padding: 8px 0  0 5px;
+}
+
+nav a{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    background: #4B5F67;
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 0.8em;
+    margin-left: -3px;
+}
+
+nav a:hover{
+    background: azure;
+    opacity: 0.8;
+}
+
+a#sport{
+    text-decoration: underline;
+}
+
+a#news{
+    background: #1E3741;
+    color: white;
+}
