@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Reverse string", "02. Reverse string\02. Reverse string.csproj", "{C673C1AA-D818-4ECB-96CE-3FA336F415E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Correct brackets", "03. Correct brackets\03. Correct brackets.csproj", "{100E8E20-5BF4-4A88-8834-B636589E1B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sub-string in text", "04. Sub-string in text\04. Sub-string in text.csproj", "{7864DB75-2C0D-4E51-A225-940BA2B28619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Parse tags", "05. Parse tags\05. Parse tags.csproj", "{DD31D989-1030-4B47-A378-E455ABEFAB1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C673C1AA-D818-4ECB-96CE-3FA336F415E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C673C1AA-D818-4ECB-96CE-3FA336F415E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C673C1AA-D818-4ECB-96CE-3FA336F415E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C673C1AA-D818-4ECB-96CE-3FA336F415E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100E8E20-5BF4-4A88-8834-B636589E1B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100E8E20-5BF4-4A88-8834-B636589E1B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100E8E20-5BF4-4A88-8834-B636589E1B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100E8E20-5BF4-4A88-8834-B636589E1B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7864DB75-2C0D-4E51-A225-940BA2B28619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7864DB75-2C0D-4E51-A225-940BA2B28619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7864DB75-2C0D-4E51-A225-940BA2B28619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7864DB75-2C0D-4E51-A225-940BA2B28619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD31D989-1030-4B47-A378-E455ABEFAB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD31D989-1030-4B47-A378-E455ABEFAB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD31D989-1030-4B47-A378-E455ABEFAB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD31D989-1030-4B47-A378-E455ABEFAB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
