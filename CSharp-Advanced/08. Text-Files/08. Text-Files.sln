@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Odd Lines", "01. Odd Lines\01. Odd Lines.csproj", "{1D024BA9-85F6-42D6-91F5-EE1440DE1411}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Concatenate Text Files", "02. Concatenate Text Files\02. Concatenate Text Files.csproj", "{3AC55973-3A5E-4456-ABA3-145DA247DE38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{1D024BA9-85F6-42D6-91F5-EE1440DE1411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D024BA9-85F6-42D6-91F5-EE1440DE1411}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D024BA9-85F6-42D6-91F5-EE1440DE1411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC55973-3A5E-4456-ABA3-145DA247DE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC55973-3A5E-4456-ABA3-145DA247DE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC55973-3A5E-4456-ABA3-145DA247DE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC55973-3A5E-4456-ABA3-145DA247DE38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
